@@ -1,0 +1,18 @@
+/* styles.css */
+
+
+
+#rectangle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: blue;
+    margin-left: 200px;
+    width: 100px; /* Example width */
+    height: 40px; /* Example height */
+}
+
+#rectangle.clicked {
+    background-color: darkblue;
+}
