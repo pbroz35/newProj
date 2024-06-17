@@ -23,7 +23,7 @@ const server = http.createServer(function (req, res) {
                 res.end(content, 'utf-8');
             }
         });
-    }
+    } 
     // Serve static CSS and JavaScript files
     else if (req.url.match(/\.(css|js)$/)) {
         const filePath = path.join(__dirname, 'public', req.url);

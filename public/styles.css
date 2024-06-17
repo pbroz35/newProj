@@ -1,16 +1,11 @@
-/* styles.css */
-
-
-
 #rectangle {
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    background-color: blue;
-    margin-left: 200px;
-    width: 100px; /* Example width */
-    height: 40px; /* Example height */
+    background-color: gray;
+    margin-left: 500px;
+    width: 600px;
+    height: 400px;
 }
 
 #rectangle.clicked {
