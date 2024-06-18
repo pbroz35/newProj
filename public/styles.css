@@ -11,3 +11,10 @@
 #rectangle.clicked {
     background-color: darkblue;
 }
+
+#pic1{
+    margin-top: 50px;
+    margin-left: 200px;
+    width:200px;
+    height:200px;
+}
